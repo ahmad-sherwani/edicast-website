@@ -30,7 +30,7 @@ export function Footer() {
             <Instagram className="h-4 w-4" />
           </a>
           <a
-            href="https://www.facebook.com/share/1EQ7XCw4bV/"
+            href="https://www.facebook.com/share/1Zsyneg8ZH/"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Facebook"
@@ -63,8 +63,8 @@ export function Footer() {
         <div>
           <div className="font-display text-lg mb-5 text-gold">Get in touch</div>
           <ul className="space-y-3 text-sm text-primary-foreground/70">
-            <li className="flex items-start gap-3"><Mail className="h-4 w-4 mt-0.5 text-gold" /> edicastservices@edicast.in</li>
-            <li className="flex items-start gap-3"><Phone className="h-4 w-4 mt-0.5 text-gold" /> +91 79767 774213</li>
+            <li className="flex items-start gap-3"><Mail className="h-4 w-4 mt-0.5 text-gold" /> edicastservices@gmail.com</li>
+            <li className="flex items-start gap-3"><Phone className="h-4 w-4 mt-0.5 text-gold" /> +91 79767774213, 8873980237</li>
             <li className="flex items-start gap-3"><MapPin className="h-4 w-4 mt-0.5 text-gold" /> vadodara · Gujrat </li>
           </ul>
         </div>

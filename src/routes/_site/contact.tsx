@@ -1,7 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useState } from "react";
 import { Reveal } from "@/components/site/Reveal";
-import { Mail, Phone, MapPin, MessageCircle, Send, Instagram, Youtube, Linkedin } from "lucide-react";
+import { Mail, Phone, MapPin, MessageCircle, Send, Instagram, Youtube, Linkedin, Facebook } from "lucide-react";
 import { toast } from "sonner";
 import { db } from "@/firebase";
 import { collection, addDoc } from "firebase/firestore";
@@ -131,12 +131,12 @@ try {
               <div className="absolute -top-20 -right-20 h-60 w-60 rounded-full bg-gold/20 blur-3xl" />
               <div className="relative space-y-5">
                 <div className="text-xs uppercase tracking-widest text-gold">Reach us directly</div>
-                <ContactItem icon={Phone} label="Call us" value="+91 79767 74213" />
-                <ContactItem icon={MessageCircle} label="WhatsApp" value="+91 79767 74213" href="https://wa.me/917976774213" />
+                <ContactItem icon={Phone} label="Call us" value="+91 7976774213, 8873980237" />
+                <ContactItem icon={MessageCircle} label="WhatsApp" value="+91 7976774213" href="https://wa.me/917976774213" />
                 <ContactItem icon={Mail} label="Email" value="edicastservices@edicast.com" href="https://mail.google.com/mail/?view=cm&fs=1&to=edicastservices@gmail.com" target="_blank" />
                 <ContactItem icon={MapPin} label="Studio" value="Vadodara · Gujarat · Remote" />
                 <div className="flex gap-3 pt-4">
-                  {[Instagram, Youtube, Linkedin].map((Icon, i) => (
+                  {[Instagram, Facebook, Mail].map((Icon, i) => (
                     <a key={i} href="#" className="h-10 w-10 grid place-items-center rounded-full glass hover:bg-gold hover:text-navy-deep transition-colors">
                       <Icon className="h-4 w-4" />
                     </a>

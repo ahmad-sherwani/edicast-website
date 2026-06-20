@@ -2,6 +2,9 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 import { Reveal } from "@/components/site/Reveal";
 import { SectionHeader } from "@/components/site/SectionHeader";
 import { Target, Eye, Heart, Sparkles, ArrowRight } from "lucide-react";
+import ahmadPhoto from "@/assets/ahmad.jpg";
+import rishavPhoto from "@/assets/rishav.jpg";
+
 
 export const Route = createFileRoute("/_site/about")({
   head: () => ({
@@ -28,9 +31,11 @@ const values = [
 ];
 */
 const team = [
-  { name: "Ahmad Sherwani", role: "Co-Founder & Creative Director" },
-  { name: "Rishav Modi", role: "Co-Founder & Head of Media team" },
+  { name: "Ahmad Sherwani", role: "Co-Founder & Creative Director", photo: ahmadPhoto },
+  { name: "Rishav Modi", role: "Co-Founder & Head of Media Team", photo: rishavPhoto },
+  // ...
 ];
+
 
 function About() {
   return (
@@ -127,9 +132,20 @@ function About() {
               <Reveal key={m.name} delay={i * 0.05}>
                 <div className="group rounded-3xl overflow-hidden border border-border bg-card">
                   <div className="aspect-[4/5] bg-gradient-to-br from-navy to-navy-deep relative grid place-items-center">
-                    <div className="font-display text-6xl text-gold/50">{m.name.split(" ").map(n=>n[0]).join("")}</div>
+                    {m.photo ? (
+                      <img
+                        src={m.photo}
+                        alt={m.name}
+                        className="absolute inset-0 h-full w-full object-cover object-top"
+                      />
+                    ) : (
+                      <div className="font-display text-6xl text-gold/50">
+                        {m.name.split(" ").map((n) => n[0]).join("")}
+                      </div>
+                    )}
                     <div className="absolute inset-0 bg-gradient-to-t from-navy-deep/60 to-transparent" />
                   </div>
+
                   <div className="p-5">
                     <div className="font-display text-xl text-navy-deep">{m.name}</div>
                     <div className="text-xs uppercase tracking-widest text-muted-foreground mt-1">{m.role}</div>

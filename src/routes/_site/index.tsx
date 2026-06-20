@@ -7,11 +7,16 @@ import {
 } from "lucide-react";
 import heroImg from "@/assets/hero-edicast.jpg";
 import p1 from "@/assets/portfolio-1.jpg";
-import p2 from "@/assets/portfolio-2.jpg";
+import p2 from "@/assets/portfolio-2.png";
 import p3 from "@/assets/portfolio-3.jpg";
 import p4 from "@/assets/portfolio-4.jpg";
-import p5 from "@/assets/portfolio-5.jpg";
+import p5 from "@/assets/portfolio-5.png";
 import p6 from "@/assets/portfolio-6.jpg";
+import p7 from "@/assets/portfolio-7.png";
+import p8 from "@/assets/portfolio-8.png";
+import p9 from "@/assets/portfolio-9.png";
+import p10 from "@/assets/portfolio-10.png";
+import p11 from "@/assets/portfolio-11.png";
 import { Reveal } from "@/components/site/Reveal";
 import { SectionHeader } from "@/components/site/SectionHeader";
 import { StatCounter } from "@/components/site/StatCounter";
@@ -54,11 +59,16 @@ const whys = [
 
 const portfolio = [
   { img: p1, title: "Annual Convocation Film", cat: "Videography", span: "row-span-2" },
-  { img: p2, title: "Sports Day Coverage", cat: "Event" },
+  { img: p2, title: "Sports Day Coverage", cat: "Photography" },
   { img: p3, title: "Brand Identity System", cat: "Branding" },
   { img: p4, title: "Campus Reels Campaign", cat: "Reels", span: "row-span-2" },
-  { img: p5, title: "Smart Classroom Series", cat: "Photography" },
+  { img: p5, title: "", cat: "Photography" },
   { img: p6, title: "Cultural Fest 2025", cat: "Event" },
+  { img: p7, title: "", cat: "Photography" },
+  { img: p8, title: "", cat: "Photography" },
+  { img: p9, title: "", cat: "Photography" },
+  { img: p10, title: "", cat: "Photography" },
+  { img: p11, title: "", cat: "Photography" },
 ];
 
 const testimonials = [
