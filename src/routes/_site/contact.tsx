@@ -19,7 +19,7 @@ export const Route = createFileRoute("/_site/contact")({
 
 function Contact() {
   const [loading, setLoading] = useState(false);
-  const services = ["Social Media Management", "Photography", "Videography", "Reels Creation", "Other"];
+  const services = ["Social Media Management","Reels Creation", "Other"];
 
   const onSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
   e.preventDefault();

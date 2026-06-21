@@ -15,13 +15,13 @@ export const Route = createFileRoute("/_site/services")({
 
 const services = [
   { icon: Share2, title: "Social Media Management", desc: "Daily posting, community building, paid promotion and growth reporting.",
-    deliverables: ["12+ posts/month", "Story sets & highlights", "Monthly analytics", "Hashtag & SEO strategy"] },
-  { icon: Camera, title: "Photography", desc: "Editorial-grade campus, faculty, student portrait and lifestyle photography.",
-    deliverables: ["1500+ edited photos / shoot day", "Color-graded gallery", "Web + print resolution", "Same-week delivery"] },
-  { icon: Video, title: "Videography", desc: "Admissions films, virtual tours, faculty interviews and brand films.",
-    deliverables: ["3-7 min hero film", "30s social cutdown", "Raw footage archive", "Custom voiceover & music"] },
+    deliverables: ["posts/month", "Story sets & highlights", "Monthly analytics", "Hashtag & SEO strategy"] },
+  { icon: Camera, title: "Ads", desc: "Admission Campaigning Ads , Campus Visibility Ads, Achievements and Results.",
+    deliverables: ["Paid Promotional Ads", "Stratergies for Ads", "Meta Ads", "Google Ads"] },
+ /* { icon: Video, title: "Videography", desc: "Admissions films, virtual tours, faculty interviews and brand films.",
+    deliverables: ["3-7 min hero film", "30s social cutdown", "Raw footage archive", "Custom voiceover & music"] },*/
   { icon: Sparkles, title: "Reels Creation", desc: "Short-form content engineered for the Instagram & YouTube algorithm.",
-    deliverables: ["8-20 reels/month", "Trend-aligned scripts", "Hook optimization", "Vertical color grading"] },
+    deliverables: [" reels/month", "Trend-aligned scripts", "Hook optimization", "Vertical color grading"] },
   /* soon { icon: Calendar, title: "Event Coverage", desc: "Annual day, sports day, convocations, exhibitions — every memory captured.",
     deliverables: ["Multi-camera setup", "Drone coverage", "Live-edit reel within 24h", "Album + film deliverables"] },
   { icon: Megaphone, title: "Branding", desc: "Identity systems, logos, prospectus design and brand guidelines.",

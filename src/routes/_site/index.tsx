@@ -36,10 +36,9 @@ export const Route = createFileRoute("/_site/")({
 
 const services = [
   { icon: Share2, title: "Social Media Management", desc: "End-to-end content calendars, community building and growth strategy." },
-  { icon: Camera, title: "Photography", desc: "Campus, event, faculty and student portrait photography." },
-  { icon: Video, title: "Videography", desc: "Cinematic admissions films, tours and faculty interviews." },
-  { icon: Sparkles, title: "Reels Creation", desc: "Scroll-stopping short-form content tuned for Instagram & YouTube." },
-
+  { icon: Camera, title: "Ads", desc: "Paid Promotional Ads, Stratergies for Ads." },
+/* { icon: Video, title: "Videography", desc: "Cinematic admissions films, tours and faculty interviews." },*/
+ { icon: Sparkles, title: "Reels Creation", desc: "Scroll-stopping short-form content tuned for Instagram & YouTube." },
 
   
   /* soon { icon: Palette, title: "Graphic Designing", desc: "Posters, prospectuses, hoardings and digital creatives." },
